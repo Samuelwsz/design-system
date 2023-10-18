@@ -35,11 +35,60 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## React: criando um Design System com TailwindCSS Alura curso
+
+### [Figma](https://www.figma.com/file/h86gUvqUXTKwgr6tVYinLT/React%3A-Design-System-com-Tailwind?type=design&node-id=143-3228&mode=design)
+
+### Iniciar Projeto
 
 ```
 npx create-next-app
 ```
 
+globals.css
+
+css personalizado
+```
+:root {
+    --example: #f58912;
+    --example: #f555555;
+}
+
+```
+
+tailwind.config.js
+
+```
+theme: {
+  extend: {
+        colors: {
+          example: 'var(--example)',
+          example-2: 'var(--example-2)',
+        }
+    backgroundImage: {
+      'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+    },
+  },
+},
+```
+### [StoryBook](https://storybook.js.org/)
+
+[Artigo de Next.js com storybook](https://storybook.js.org/blog/get-started-with-storybook-and-next-js/)
+
+```
+npx sb init --builder webpack5
+```
+```
+npm run storybook
+```
+na pasta .storybook abra o arquivo main.ts
+```
+  stories: [
+    "../components/**/*.mdx",
+    "../components/**/*.stories.@(js|jsx|mjs|ts|tsx)",
+  ],
+```
 
 ### artigos sobre storybook e next.js
 https://storybook.js.org/blog/get-started-with-storybook-and-next-js/
