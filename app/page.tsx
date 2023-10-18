@@ -7,6 +7,9 @@ export default function Home() {
         oi <p>a</p>
         <p>ex2</p>
         <Button className="flex m-auto">Botão</Button>
+        <Button className="flex m-auto my-1" disabled>
+          desabilitado
+        </Button>
       </div>
     </>
   )
