@@ -48,6 +48,7 @@ npx create-next-app
 globals.css
 
 css personalizado
+
 ```
 :root {
     --example: #f58912;
@@ -72,6 +73,7 @@ theme: {
   },
 },
 ```
+
 ### [StoryBook](https://storybook.js.org/)
 
 [Artigo de Next.js com storybook](https://storybook.js.org/blog/get-started-with-storybook-and-next-js/)
@@ -79,10 +81,13 @@ theme: {
 ```
 npx sb init --builder webpack5
 ```
+
 ```
 npm run storybook
 ```
+
 na pasta .storybook abra o arquivo main.ts
+
 ```
   stories: [
     "../components/**/*.mdx",
@@ -90,9 +95,15 @@ na pasta .storybook abra o arquivo main.ts
   ],
 ```
 
-### artigos sobre storybook e next.js
-https://storybook.js.org/blog/get-started-with-storybook-and-next-js/
+.storybook/preview.ts
 
+```
+import '../app/globals.css'
+```
+
+### artigos sobre storybook e next.js
+
+https://storybook.js.org/blog/get-started-with-storybook-and-next-js/
 
 https://storybook.js.org/blog/integrate-nextjs-and-storybook-automatically/
 
