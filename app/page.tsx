@@ -1,4 +1,5 @@
 import Button from "@/components/Button/Button"
+import Input from "@/components/Input/Input"
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
         <Button className="flex m-auto my-1" variant="primary" disabled>
           desabilitado
         </Button>
+        <Input placeholder="aaa" className="flex m-auto" />
+        <Input className="flex m-auto my-1" placeholder="aaa" multiline />
       </div>
     </>
   )
