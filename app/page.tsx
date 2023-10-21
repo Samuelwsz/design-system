@@ -1,5 +1,6 @@
 import Button from "@/components/Button/Button"
 import Input from "@/components/Input/Input"
+import TextBlock from "@/components/TextBlock/TextBlock"
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         </Button>
         <Input placeholder="aaa" className="flex m-auto" />
         <Input className="flex m-auto my-1" placeholder="aaa" multiline />
+        <TextBlock title="a" textBlock="aaa"/>
       </div>
     </>
   )
