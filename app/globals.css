@@ -66,6 +66,9 @@
     --text-nd: 16px;
     --text-lg: 18px;
     --text-xl: 20px;
+    --text-txl: 24px;
+    --text-tlg: 32px;
+    --text-tmd: 40px;
   }
 
   .theme-violet {
