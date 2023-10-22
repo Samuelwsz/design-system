@@ -101,6 +101,10 @@ na pasta .storybook abra o arquivo main.ts
 import '../app/globals.css'
 ```
 
+```
+npm i classnames 
+```
+
 ### artigos sobre storybook e next.js
 
 https://storybook.js.org/blog/get-started-with-storybook-and-next-js/
