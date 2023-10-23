@@ -1,3 +1,4 @@
+import Avatar from "@/components/Avatar/Avatar"
 import Box from "@/components/Box/Box"
 import Button from "@/components/Button/Button"
 import Divider from "@/components/Divider/Divider"
@@ -11,6 +12,7 @@ export default function Home() {
     <>
       <div className="bg-black w-screen h-screen">
         <p className="text-red-400">a</p>
+        <Avatar size="lg" className="flex m-auto" />
         <Button className="flex m-auto my-1" variant="primary">
           Botão
         </Button>
