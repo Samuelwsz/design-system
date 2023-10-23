@@ -102,7 +102,11 @@ import '../app/globals.css'
 ```
 
 ```
-npm i classnames 
+npm i classnames
+```
+
+```
+npm install @heroicons/react
 ```
 
 ### artigos sobre storybook e next.js
