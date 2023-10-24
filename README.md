@@ -109,6 +109,10 @@ npm i classnames
 npm install @heroicons/react
 ```
 
+```
+npm i class-variance-authority
+```
+
 ### artigos sobre storybook e next.js
 
 https://storybook.js.org/blog/get-started-with-storybook-and-next-js/
