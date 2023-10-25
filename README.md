@@ -110,6 +110,10 @@ npm install @heroicons/react
 ```
 
 ```
+npm install @headlessui/react
+```
+
+```
 npm i class-variance-authority
 ```
 

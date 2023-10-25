@@ -4,6 +4,7 @@ import Button from "@/components/Button/Button"
 import Divider from "@/components/Divider/Divider"
 import Input from "@/components/Input/Input"
 import Notice from "@/components/Notice/Notice"
+import Switch from "@/components/Switch/Switch"
 import TextBlock from "@/components/TextBlock/TextBlock"
 import TextBlock2 from "@/components/TextBlock2/TextBlock2"
 import Typography from "@/components/Typography/Typography"
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <div className="bg-black w-screen h-screen">
         <p className="text-red-400">a</p>
+        <Switch />
         <Avatar size="lg" className="m-auto my-1" />
         <Avatar
           size="lg"

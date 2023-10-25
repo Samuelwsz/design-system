@@ -18,3 +18,4 @@ export const Primary: StoryObj<TypographyProps> = {
     children: "Texto",
   },
 }
+
