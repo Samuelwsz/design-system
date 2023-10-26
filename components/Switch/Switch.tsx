@@ -1,5 +1,4 @@
 "use client"
-
 import {
   Switch as HeadlessSwitch,
   type SwitchProps as HeadlessSwitchProps,
@@ -15,13 +14,13 @@ export type SwitchProps = {
   onChange?: (enabled: boolean) => void
 } & HeadlessSwitchProps<any>
 
-export default function Switch({
+const Switch = ({
   defaultEnable: enabledByDefault,
   variant = "common",
   disabled,
   onChange,
   ...rest
-}: SwitchProps) {
+}: SwitchProps) => {
   const [enabled, setEnabled] = useState(enabledByDefault)
   const style = useStyle({ variant, enabled, disabled })
 
@@ -54,3 +53,5 @@ export default function Switch({
     </HeadlessSwitch>
   )
 }
+
+export default Switch
