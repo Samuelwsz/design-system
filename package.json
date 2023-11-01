@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_8b6616ac0adc59f"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
@@ -40,5 +41,7 @@
     "storybook": "^7.5.0",
     "tailwindcss": "^3",
     "typescript": "^5"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "design-system@0.1.0"
 }
