@@ -104,6 +104,19 @@ npm install --dev chromatic
 npm run build-storybook -s public
 ```
 
+### crie um arquivo vercel.json na raiz do projeto
+
+```
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "npm run build-storybook",
+  "devCommand": "npm run storybook",
+  "installCommand": "npm install",
+  "framework": null,
+  "outputDirectory": "./storybook-static"
+}
+```
+
 ### artigos sobre storybook e next.js
 
 https://storybook.js.org/blog/get-started-with-storybook-and-next-js/
